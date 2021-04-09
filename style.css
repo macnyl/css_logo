@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    background: url(./image/ilya-pavlov-OqtafYT5kTw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #1E1E1E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+.navi{
+    float: right;
+    padding: 1.5em;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 3em;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 1.5em;
+    color: blanchedalmond;
+}
+
+.logo{
+    float: left;
+    color: white;
+    font-size: 25px;
+    padding: 1.5em;
+}
+
+ul li:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    position: absolute;
+    z-index: 1;
+    /* top: 10%; */
+    left: 45%;
+    margin-top: 75px;
+    margin-left: -145px;
+    transition: all 1000ms;
+}
+
+.kali_linux{
+    background: url(./image/kali-linux.png);
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height:300px;
+    
+}
+
+.container .kali_linux{
+    display: block;
+    width: 500px;
+    height: 700px;
+}
+
+.undeground{
+    font-size: 1.1em;
+    display: flex;
+    color: white;
+    margin-top: 750px;
+}
+
+.podval{
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 2.5em;
+}
+
+.left{
+    background-color: #1E1E1E;
+}
+
+.right{
+    background-color: #1E1E1E;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1em;
+    background-color: #78909C;
+    color: cornsilk;
+}
+
+.group{
+    font-size: 1em;
+    text-decoration: none;
+}
+
